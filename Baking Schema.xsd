@@ -19,7 +19,6 @@
                 <xs:element name="recipes" type="xs:string"/>
                 <xs:element name="purchase location" type="xs:string"/>
                 <xs:element ref="bg:modsSection" minOccurs="0"/>
-                <xs:element ref="bg:dcSection" minOccurs="0"/>
                 <xs:element ref="bg:vraSection" minOccurs="0"/>
             </xs:sequence>
         </xs:complexType>
