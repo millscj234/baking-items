@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://github.com/millscj234/baking-items"
+    xmlns:bg="https://github.com/millscj234/baking-items"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    elementFormDefault="qualified">
+
+    <xs:import namespace="http://www.loc.gov/mods/v3"
+        schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"/>
+    <xs:import namespace="http://www.vraweb.org/vracore4.htm"
+        schemaLocation="http://www.loc.gov/standards/vracore/vra.xsd"/>
+
+    <xs:element name="baking item">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="height" type="xs:decimal"/>
+                <xs:element name="weight" type="xs:decimal"/>
+                <xs:element name="purpose" type="xs:string"/>
+                <xs:element name="recipes" type="xs:string"/>
+                <xs:element name="purchase location" type="xs:string"/>
+                <xs:element ref="bg:modsSection" minOccurs="0"/>
+                <xs:element ref="bg:dcSection" minOccurs="0"/>
+                <xs:element ref="bg:vraSection" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="height" type="heightDefinition"/>
+    <xs:complexType name="heightDefinition">
+        <xs:sequence>
+            <xs:element ref="inches" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="centimeters" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:element name="weight" type="weightDefinition"/>
+    <xs:complexType name="weightDefinition">
+        <xs:sequence>
+            <xs:element ref="pounds" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="kilograms" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="grams" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="ounces" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:element name="recipes" type="recipesDefinition"/>
+    <xs:complexType name="recipesDefinition">
+        <xs:sequence>
+            <xs:element ref="UsedIn" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:element name="purchase location" type="PurchaselocationDefinition"/>
+    <xs:complexType name="PurchaselocationDefinition">
+        <xs:sequence>
+            <xs:element ref="purchaseUrl" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="physicalPurchaseLocation" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:element name="modsSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mods:mods"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="vraSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vra:work" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+
+</xs:schema>
