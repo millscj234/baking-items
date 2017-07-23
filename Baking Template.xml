@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
-    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/blob/master/Baking_Schema.xsd">
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
     
     
     <measurement></measurement>
