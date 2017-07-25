@@ -27,7 +27,7 @@
         <UsedIn>General Recipes</UsedIn>
     </recipes>
     <purchaselocation>
-        <purchaseUrl>http://a.co/enmqyYK</purchaseUrl>
+        <purchaseUrl>https://www.amazon.com/Orblue-Pastry-Cutter-Stainless-Steel/dp/B00SHJE4XU/ref=sr_1_33?s=kitchen&amp;ie=UTF8&amp;qid=1495770707&amp;sr=1-33</purchaseUrl>
     </purchaselocation>
 
 
@@ -57,5 +57,11 @@
         </mods:mods>
     </modsSection>
 
-    <vraSection> </vraSection>
+    <vraSection>
+        <vra:work>
+            <vra:titleSet>
+                <vra:title>Pastry Cutter Stainless Steel</vra:title>
+            </vra:titleSet>
+        </vra:work>
+    </vraSection>
 </bakingitem>
