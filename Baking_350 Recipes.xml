@@ -5,10 +5,10 @@
     xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
     xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
 
+    <length>
+        <inches>9.84</inches>
+    </length>
 
-    <measurement>
-        <length>9.84</length>
-    </measurement>
     <purchaselocation>
         <purchaseUrl>https://www.amazon.com/Better-Homes-Gardens-Baking-Techniques/dp/1118453263/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;qid=&amp;sr=</purchaseUrl>
     </purchaselocation>

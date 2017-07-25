@@ -5,10 +5,9 @@
     xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
     xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
 
-
-    <measurement>
-        <length>4.75</length>
-    </measurement>
+    <length>
+        <inches>4.75</inches>
+    </length>
     <purchaselocation>
         <purchaseUrl>https://www.amazon.com/Great-British-Baking-Show-Season/dp/B01MUE1ROT/ref=sr_1_1?ie=UTF8&amp;qid=1500839578&amp;sr=8-1&amp;keywords=the+great+british+baking+show+season+1</purchaseUrl>
     </purchaselocation>

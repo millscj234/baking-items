@@ -6,11 +6,16 @@
     xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
 
 
-    <measurement>
-        <height>5</height>
-        <length>4.60</length>
-        <width>2.00</width>
-    </measurement>
+    <height>
+        <inches>5.00</inches>
+    </height>
+    <length>
+        <inches>4.60</inches>
+    </length>
+    <width>
+        <inches>2.00</inches>
+    </width>
+
     <weight>
         <ounces>6.40</ounces>
     </weight>
