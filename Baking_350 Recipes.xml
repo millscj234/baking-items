@@ -6,11 +6,17 @@
     xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
 
     <length>
-        <inches>9.84</inches>
+        <inches>8</inches>
     </length>
+    <width>
+        <inches>1.5</inches>
+    </width>
+    <height>
+        <inches>9.5</inches>
+    </height>
 
     <purchaselocation>
-        <purchaseUrl>https://www.amazon.com/Better-Homes-Gardens-Baking-Techniques/dp/1118453263/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;qid=&amp;sr=</purchaseUrl>
+        <purchaseUrl>http://a.co/fQIuqVG</purchaseUrl>
     </purchaselocation>
 
 
