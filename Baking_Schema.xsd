@@ -3,16 +3,18 @@
     targetNamespace="https://github.com/millscj234/baking-items"
     xmlns:bake="https://github.com/millscj234/baking-items" xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:vra="http://www.vraweb.org/vracore4.htm" elementFormDefault="qualified">
-    
+
     <xs:import namespace="http://www.loc.gov/mods/v3"
         schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"/>
     <xs:import namespace="http://www.vraweb.org/vracore4.htm"
         schemaLocation="http://www.loc.gov/standards/vracore/vra.xsd"/>
-    
+
     <xs:element name="bakingitem">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="bake:measurement" minOccurs="0"/>
+                <xs:element ref="bake:height" minOccurs="0"/>
+                <xs:element ref="bake:length" minOccurs="0"/>
+                <xs:element ref="bake:width" minOccurs="0"/>
                 <xs:element ref="bake:weight" minOccurs="0"/>
                 <xs:element name="purpose" type="xs:string" minOccurs="0"/>
                 <xs:element ref="bake:recipes" minOccurs="0"/>
@@ -22,18 +24,38 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
-    
-    <xs:element name="measurement">
+
+
+    <xs:element name="height">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="height" minOccurs="0" maxOccurs="unbounded" type="xs:decimal"/>
-                <xs:element name="length" minOccurs="0" maxOccurs="unbounded" type="xs:decimal"/>
-                <xs:element name="width" minOccurs="0" maxOccurs="unbounded" type="xs:decimal"/>
+                <xs:element name="inches" minOccurs="0" maxOccurs="unbounded" type="xs:decimal"/>
+                <xs:element name="centimeteres" minOccurs="0" maxOccurs="unbounded"
+                    type="xs:decimal"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
+    <xs:element name="length">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="inches" minOccurs="0" maxOccurs="unbounded" type="xs:decimal"/>
+                <xs:element name="centimeteres" minOccurs="0" maxOccurs="unbounded"
+                    type="xs:decimal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="width">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="inches" minOccurs="0" maxOccurs="unbounded" type="xs:decimal"/>
+                <xs:element name="centimeteres" minOccurs="0" maxOccurs="unbounded"
+                    type="xs:decimal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="weight">
         <xs:complexType>
             <xs:sequence>
@@ -44,7 +66,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="recipes">
         <xs:complexType>
             <xs:sequence>
@@ -52,16 +74,17 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="purchaselocation">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="purchaseUrl" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
-                <xs:element name="physicalPurchaseLocation" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+                <xs:element name="physicalPurchaseLocation" minOccurs="0" maxOccurs="unbounded"
+                    type="xs:string"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="modsSection">
         <xs:complexType>
             <xs:sequence>
@@ -69,7 +92,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="vraSection">
         <xs:complexType>
             <xs:sequence>
@@ -77,9 +100,9 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
-    
-    
-    
-    
+
+
+
+
+
 </xs:schema>
