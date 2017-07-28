@@ -47,8 +47,8 @@
                     <mods:roleTerm type="text">Creator</mods:roleTerm>
                 </mods:role>
             </mods:name>
-            <mods:identifier>Item Model Number SYNCHKG061533</mods:identifier>
-            <mods:identifier> ASIN B00SHJE4XU</mods:identifier>
+            <mods:identifier type="manufacturer">SYNCHKG061533</mods:identifier>
+            <mods:identifier type="ASIN">B00SHJE4XU</mods:identifier>
             <mods:subject authority="lcsh">
                 <mods:topic>Kitchen utensils</mods:topic>
                 <mods:topic>Kitchen appliances</mods:topic>
