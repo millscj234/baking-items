@@ -46,24 +46,6 @@
             <mods:physicalDescription>
                 <mods:form>528 pages : color illustrations</mods:form>
             </mods:physicalDescription>
-            <mods:classification>Book</mods:classification>
-            <mods:note>Includes Index.</mods:note>
-            <mods:tableOfContents>
-                Baking basics --
-                Cookies --
-                Bars and brownies --
-                Cakes and cupcakes --
-                Decorated cakes --
-                Pies and tarts --
-                Cheesecakes --
-                Desserts --
-                Yeast and artisan breads --
-                Quick breads --
-                Morning favorites --
-                Coffee shop --
-                Holiday baking --
-                Everyday baking.
-            </mods:tableOfContents>
             <mods:subject authority="lcsh">
                 <mods:topic>Baking</mods:topic>
                 <mods:topic>Bakers</mods:topic>
@@ -79,5 +61,4 @@
         </mods:mods>
     </modsSection>
 
-    <vraSection> </vraSection>
 </bakingitem>
