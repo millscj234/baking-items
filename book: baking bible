@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakingitem xmlns="https://github.com/millscj234/baking-items"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
+    
+    <length>
+        <inches>7.5</inches>
+    </length>
+    <width>
+        <inches>1.2</inches>
+    </width>
+    <height>
+        <inches>9.5</inches>
+    </height>
+    
+    <purchaselocation>
+        <purchaseUrl>http://a.co/fpsePtg</purchaseUrl>
+    </purchaselocation>
+    
+    
+    <modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Mary Berry's Baking Bible</mods:title>
+                <mods:subTitle>Over 250 Classic Recipes</mods:subTitle>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Berry, Mary, 1935-</mods:namePart>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>London</mods:placeTerm>
+                </mods:place>
+                <mods:publisher>BBC</mods:publisher>
+                <mods:dateCreated>2009</mods:dateCreated>
+            </mods:originInfo>
+            <mods:abstract>Filled with 250 foolproof recipes of every variety, this comprehensive cookbook is packed with delicious baking ideas. Tempting muffins, scones, and breads are included along with Marry Berry’s famous cake recipes, including Victoria Sponge, Very Best Chocolate Cake, and Hazelnut Meringue Cake. Full-color photographs and illustrations that detail trickier steps are accompanied by easy-to-follow instructions and handy tips, making this an ideal resource for kitchen novices and more experienced cooks alike.
+            </mods:abstract>
+            <mods:genre>Cookbooks</mods:genre>
+            <mods:language>
+                <mods:languageTerm>English</mods:languageTerm>
+            </mods:language>
+            <mods:identifier type="isbn">9781846077852</mods:identifier>
+            <mods:identifier type="oclc">932012869></mods:identifier>
+            <mods:physicalDescription>
+                <mods:form>399 pages : color illustrations ; 25 cm
+                </mods:form>
+            </mods:physicalDescription>
+            <mods:subject authority="lcsh">
+                <mods:topic>Baked products.</mods:topic>
+            </mods:subject>
+            <mods:subject authority="oclc">
+                <mods:topic>Baked products.</mods:topic>
+            </mods:subject>
+            <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+    </modsSection>
+    
+</bakingitem>
