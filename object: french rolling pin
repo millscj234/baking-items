@@ -22,7 +22,8 @@
     <purpose>Used to roll out doughs for pastry and other baked goods. The elongated shape is a variation on a traditional cylindrical rolling pin.</purpose>
     <recipes>
         <UsedIn>Pies</UsedIn>
-        <UsedIn>General Recipes</UsedIn>
+        <UsedIn>Pastry</UsedIn>
+        <UsedIn>Cookies</UsedIn>
     </recipes>
     <purchaselocation>
         <purchaseUrl>http://a.co/bWsXDxz</purchaseUrl>
