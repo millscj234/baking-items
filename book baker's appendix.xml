@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakingitem xmlns="https://github.com/millscj234/baking-items"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
+    
+    <height>
+        <inches>7.3</inches>
+    </height>
+    <length>
+        <inches>5.3</inches>
+    </length>
+    <width>
+        <inches>0.7</inches>
+    </width>
+    
+    
+    <purchaselocation>
+        <purchaseUrl>http://a.co/9qCKKUE</purchaseUrl>
+    </purchaselocation>
+    
+    
+    <modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>The baker's appendix</mods:title>
+                <mods:subTitle>the essential kitchen companion with deliciously dependable, infinitely adaptable recipes</mods:subTitle>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Reed, Jessica</mods:namePart>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>New York</mods:placeTerm>
+                </mods:place>
+                <mods:publisher>Clarkson Potter</mods:publisher>
+                <mods:dateCreated>2017</mods:dateCreated>
+            </mods:originInfo>
+            <mods:abstract>The ultimate quick, yet thorough, reference for bakers, with every metric conversion and ingredient substitution you could want, plus 18 recipes for basic, fail-proof cakes, frostings, and cookies–with variations that combine to make dozens of desserts.</mods:abstract>
+            <mods:genre>Cookbooks</mods:genre>
+            <mods:language>
+                <mods:languageTerm>English</mods:languageTerm>
+            </mods:language>
+            <mods:identifier type="isbn">9780451495747</mods:identifier>
+            <mods:identifier type="oclc">948878725></mods:identifier>
+            <mods:physicalDescription>
+                <mods:form>112 pages : illustrations ; 19 cm</mods:form>
+            </mods:physicalDescription>
+            <mods:subject authority="lcsh">
+                <mods:topic>Baking--Handbooks, manuals, etc.</mods:topic>
+            </mods:subject>
+            <mods:subject authority="oclc">
+                <mods:topic>Baking</mods:topic>
+                <mods:topic>Cooking--Methods--Baking</mods:topic>
+            </mods:subject>
+            <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+    </modsSection>
+    
+</bakingitem>

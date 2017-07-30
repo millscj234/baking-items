@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakingitem xmlns="https://github.com/millscj234/baking-items"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
+    
+    <height>
+        <inches>9.5</inches>
+    </height>
+    <length>
+        <inches>8</inches>
+    </length>
+    <width>
+        <inches>1.5</inches>
+    </width>
+    
+    
+    <purchaselocation>
+        <purchaseUrl>http://a.co/fQIuqVG</purchaseUrl>
+    </purchaselocation>
+    
+    
+    <modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Baking</mods:title>
+                <mods:subTitle>More than 350 Recipes Plus Tips and Techniques</mods:subTitle>
+            </mods:titleInfo>
+            <mods:name type="corporate">
+                <mods:namePart>Better Homes and Gardens</mods:namePart>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>Boston</mods:placeTerm>
+                </mods:place>
+                <mods:publisher>Houghton Mifflin Harcourt</mods:publisher>
+                <mods:dateCreated>2013</mods:dateCreated>
+            </mods:originInfo>
+            <mods:abstract>A compendium of cookies, brownies, cakes, pies, cobblers, pastries, and breads - from everyday sweets to special-occasion show-stoppers. With more than 250 photos that showcase the recipes, it features more than 400 recipes for baked goods such as Cinnamon Rolls (with four fun shape variations), Raspberry French Silk Pie Bars, and Herbed Boule.</mods:abstract>
+            <mods:genre>Cookbooks</mods:genre>
+            <mods:language>
+                <mods:languageTerm>English</mods:languageTerm>
+            </mods:language>
+            <mods:identifier type="isbn">9781118453261</mods:identifier>
+            <mods:identifier type="oclc">849801339></mods:identifier>
+            <mods:physicalDescription>
+                <mods:form>528 pages : color illustrations</mods:form>
+            </mods:physicalDescription>
+            <mods:subject authority="lcsh">
+                <mods:topic>Baking</mods:topic>
+                <mods:topic>Bakers</mods:topic>
+                <mods:topic>Cookbooks</mods:topic>
+                <mods:topic>Cake</mods:topic>
+                <mods:topic>Pies</mods:topic>
+            </mods:subject>
+            <mods:subject authority="oclc">
+                <mods:topic>Baking</mods:topic>
+                <mods:topic>Cooking--Methods--Baking</mods:topic>
+            </mods:subject>
+            <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+    </modsSection>
+    
+</bakingitem>
