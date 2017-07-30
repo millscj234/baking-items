@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakingitem xmlns="https://github.com/millscj234/baking-items"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
+    
+    
+    <height>
+        <inches>5.00</inches>
+    </height>
+    <length>
+        <inches>4.60</inches>
+    </length>
+    <width>
+        <inches>2.00</inches>
+    </width>
+    
+    <weight>
+        <ounces>6.40</ounces>
+    </weight>
+    <purpose>Used to mix baking ingredients to create doughs. A handheld mixer which is effective for small batches.</purpose>
+    <recipes>
+        <UsedIn>Pies</UsedIn>
+        <UsedIn>Pastries</UsedIn>
+    </recipes>
+    <purchaselocation>
+        <purchaseUrl>http://a.co/gi39S2F</purchaseUrl>
+    </purchaselocation>
+    
+    
+    <modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Pastry Cutter Stainless Steel</mods:title>
+                <mods:subTitle>Professional Baking Dough Blender with Blades</mods:subTitle>
+            </mods:titleInfo>
+            <mods:abstract>Superior Quality - The Professional Dough Blender is engineered from stainless steel construction so it will NOT break, bend or rust. This pastry cutter was meticulously designed to serve you for years and decades to come.
+                Effortless Mixing - This pastry blender with blades quickly cut butter or margarine into dry ingredients such as flour, sugar or baking powder, combining a set of wet and dry ingredients seamlessly so you can bake your pie crust or cookie like a boss.
+                Good Grip - The black soft-grip handle of the dough cutter absorbs pressure and won't spin or come loose in your hand. Hold it and note how comfortably your fingers wrap around it.
+                Save Time - If you've ever had dough mixers before, you probably owned one with flexible wires like on a dough whisk that can take up to twice the time to do the same thing with the Professional Dough Blender.</mods:abstract>
+            <mods:name type="corporate">
+                <mods:namePart>Orblue</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:identifier type="manufacturer">SYNCHKG061533</mods:identifier>
+            <mods:identifier type="ASIN">B00SHJE4XU</mods:identifier>
+            <mods:subject authority="lcsh">
+                <mods:topic>Kitchen utensils</mods:topic>
+                <mods:topic>Kitchen appliances</mods:topic>
+            </mods:subject>
+            <mods:typeOfResource>three dimensional object</mods:typeOfResource>
+        </mods:mods>
+    </modsSection>
+    
+    <vraSection>
+        <vra:work>
+            <vra:titleSet>
+                <vra:title>Pastry Cutter Stainless Steel</vra:title>
+            </vra:titleSet>
+        </vra:work>
+    </vraSection>
+</bakingitem>

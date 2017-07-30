@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakingitem xmlns="https://github.com/millscj234/baking-items"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
+    
+    <length>
+        <inches>4.75</inches>
+    </length>
+    <purchaselocation>
+        <purchaseUrl>http://a.co/9fgNrQy</purchaseUrl>
+    </purchaselocation>
+    
+    
+    <modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>The Great British Baking Show</mods:title>
+                <mods:subTitle>Season One</mods:subTitle>
+            </mods:titleInfo>
+            <mods:abstract>	
+                Follow the trials and tribulations of passionate amateur bakers whose goal is to be named the U.K.'s best. Each week, the bakers tackle a different skill, the difficulty of which increases as the competition unfolds, judged by Mary Berry and Paul Hollywood.</mods:abstract>
+            <mods:genre>Reality Television Programs</mods:genre>
+            <mods:genre>Television Cooking Shows</mods:genre>
+            <mods:genre>Video Recordings for the Hearing Impaired</mods:genre>
+            <mods:name type="personal">
+                <mods:namePart>Mary Berry</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Host</mods:roleTerm>
+                </mods:role>
+                <mods:namePart>Paul Hollywood</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Host</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="corporate">
+                <mods:namePart> Love Productions</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Production Company</mods:roleTerm>
+                </mods:role>
+                <mods:description>London, England</mods:description>
+                <mods:namePart>British Broadcasting Company</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Production Company</mods:roleTerm>
+                </mods:role>
+                <mods:description>London, England</mods:description>
+                <mods:namePart>Public Broadcasting Service</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Production Company</mods:roleTerm>
+                </mods:role>
+                <mods:description>United States</mods:description>
+            </mods:name>
+            <mods:language>
+                <mods:languageTerm>English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+                <mods:form>3 videodiscs (600 min.) : sound, color</mods:form>
+            </mods:physicalDescription>
+            <mods:targetAudience>TV Parental Guidelines rating: TV-PG (parental guidance suggested; this program contains material that parents may find unsuitable for younger children).</mods:targetAudience>
+            <mods:subject authority="lcsh">
+                <mods:topic>Baking</mods:topic>
+                <mods:topic>Reality television programs</mods:topic>
+                <mods:topic>Bakers</mods:topic>
+            </mods:subject>
+            <mods:subject authority="oclc">
+                <mods:topic>Baking--Competitions--Great Britain</mods:topic>
+                <mods:topic>Baking--Great Britain</mods:topic>
+                <mods:topic>Baking</mods:topic>
+            </mods:subject>
+            <mods:typeOfResource>moving image</mods:typeOfResource>
+        </mods:mods>
+    </modsSection>
+    
+    
+</bakingitem>

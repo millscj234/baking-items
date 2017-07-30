@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakingitem xmlns="https://github.com/millscj234/baking-items"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
+    
+    
+    <height>
+        <inches>2.5</inches>
+    </height>
+    <length>
+        <inches>17</inches>
+    </length>
+    <width>
+        <inches>2.5</inches>
+    </width>
+    
+    <weight>
+        <pounds>1</pounds>
+    </weight>
+    <purpose>Used to roll out doughs for pastry and other baked goods. This is a traditionally-shaped cylindrical rolling pin.</purpose>
+    <recipes>
+        <UsedIn>Pies</UsedIn>
+        <UsedIn>Pastries</UsedIn>
+        <UsedIn>Cookies</UsedIn>
+    </recipes>
+    <purchaselocation>
+        <purchaseUrl>http://a.co/hUeKUs8</purchaseUrl>
+    </purchaselocation>
+    
+    
+    <modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Farberware Classic Wood Rolling Pin</mods:title>
+            </mods:titleInfo>
+            <mods:abstract>This rolling pin is made from durable, moisture-resistant hardwood.
+                The rolling pin features comfortable, easy grip handles for added comfort and control.
+                The pin boasts rust-proof Nylon bearings for a smooth rolling action.
+                This rolling pin is an essential tool for any kitchen.
+                This product should be hand-washed with a damp cloth for best results.</mods:abstract>
+            <mods:name type="corporate">
+                <mods:namePart>Farberware</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:identifier type="manufacturer">5080556</mods:identifier>
+            <mods:identifier type="ASIN">B005D6GFFA</mods:identifier>
+            <mods:subject authority="lcsh">
+                <mods:topic>Kitchen utensils</mods:topic>
+                <mods:topic>Kitchen appliances</mods:topic>
+            </mods:subject>
+            <mods:typeOfResource>three dimensional object</mods:typeOfResource>
+        </mods:mods>
+    </modsSection>
+    
+    <vraSection>
+        <vra:work>
+            <vra:titleSet>
+                <vra:title>Farberware Classic Wood Rolling Pin</vra:title>
+            </vra:titleSet>
+        </vra:work>
+    </vraSection>
+</bakingitem>

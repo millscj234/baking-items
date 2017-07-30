@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakingitem xmlns="https://github.com/millscj234/baking-items"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/millscj234/baking-items https://raw.githubusercontent.com/millscj234/baking-items/master/Baking_Schema.xsd">
+    
+    
+    <height>
+        <inches>2.3</inches>
+    </height>
+    <length>
+        <inches>7.5</inches>
+    </length>
+    <width>
+        <inches>7.5</inches>
+    </width>
+    
+    <weight>
+        <ounces>10.4</ounces>
+    </weight>
+    <purpose>Used for molding and releasing cheesecakes and similar baked goods.</purpose>
+    <recipes>
+        <UsedIn>Cakes</UsedIn>
+    </recipes>
+    <purchaselocation>
+        <purchaseUrl>http://a.co/8H6lYSn</purchaseUrl>
+    </purchaselocation>
+    
+    
+    <modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Hiware 7 Inch Non-stick Springform Pan</mods:title>
+                <mods:subTitle>Cheesecake Pan / Leakproof Cake Pan Bakeware / With Cleaning Cloth</mods:subTitle>
+            </mods:titleInfo>
+            <mods:abstract>7" Springform Pan works perfectly in 6Qt Instant Pot pressure cooker
+                Double layer non-stick coating eliminates the need for flouring the pan
+                Springform buckle provides easy release of baked goods
+                Oven safe to 450 degrees Fahrenheit
+                Hand wash recommended
+            </mods:abstract>
+            <mods:name type="corporate">
+                <mods:namePart>Hiware</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:identifier type="manufacturer">HI7SPCB</mods:identifier>
+            <mods:identifier type="ASIN">B01HTYH8YA</mods:identifier>
+            <mods:subject authority="lcsh">
+                <mods:topic>Kitchen utensils</mods:topic>
+                <mods:topic>Kitchen appliances</mods:topic>
+            </mods:subject>
+            <mods:typeOfResource>three dimensional object</mods:typeOfResource>
+        </mods:mods>
+    </modsSection>
+    
+    <vraSection>
+        <vra:work>
+            <vra:titleSet>
+                <vra:title>Hiware 7 Inch Non-stick Springform Pan</vra:title>
+            </vra:titleSet>
+        </vra:work>
+    </vraSection>
+</bakingitem>
