@@ -21,10 +21,8 @@
     </weight>
     <purpose>Used to mix baking ingredients to create doughs. A handheld mixer which is effective for small batches.</purpose>
     <recipes>
-        <UsedIn>Cakes</UsedIn>
         <UsedIn>Pies</UsedIn>
-        <UsedIn>Muffins</UsedIn>
-        <UsedIn>General Recipes</UsedIn>
+        <UsedIn>Pastries</UsedIn>
     </recipes>
     <purchaselocation>
         <purchaseUrl>http://a.co/gi39S2F</purchaseUrl>
